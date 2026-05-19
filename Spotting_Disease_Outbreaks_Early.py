@@ -38,7 +38,7 @@ def load_data():
     np.random.seed(42)
     dates = pd.date_range(start="2024-01-01", end="2026-06-01", freq="W")
     cities = ["Manila", "Quezon City", "Cebu City", "Davao City", "Iloilo City"]
-    diseases = ["Cholera", "Typhoid Fever", "Acute Bloody Diarrhea"]
+    diseases = ["Cholera", "Hepatitis A.", "Acute Bloody Diarrhea"]
     
     rows = []
     for city in cities:
